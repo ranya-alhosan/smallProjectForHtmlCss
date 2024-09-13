@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{   
+          background-color:rgb(108, 108, 207) ;
+          border: 1px solid ;
+          width: 600px;
+          text-align: center; 
+          height: fit-content;
+          text-align: start;
+          padding: 50px;
+          margin-left:auto;
+          margin-right:auto;
+          color: white;
+             }
+         body{
+                background-color: rgb(37, 37, 116);
+                color: white;
+                font-family: cursive;
+                text-align: center;
+             }
+             title{
+                text-align: center;
+
+             }
+             .submit{
+width:450px;
+text-align: center;
+background-color: rgb(120, 197, 120);
+             }
+             input{
+                width: auto;
+             }
+       </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Amman Coding Academy Survey form</h1>
+        <h3>Thank you for taking the time to help</h3>
+    </div>
+    <section class="content">
+       <form>
+        <label>Name</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+        <label>Email</label><br>
+        <input type="email" placeholder="Enter your name"><br><br>
+        <label>Age(optional)</label><br>
+        <input type="number" placeholder="Age"><br><br>
+        <label>How did you like my Survey?</label><br>
+        <select name="like" id="like">
+            <option>How did you like my Survey?</option>
+            <option>Neutral Experience</option><br>
+            <option>Positive Experience</option>
+            <option>Constructive Feedback</option>
+            <option>Negative Experience</option>
+            </select><br><br>
+            <label>Would you recommend my pen to a friend?</label><br>
+            <input name="recommend" type="radio">
+            <label >Definitely</label><br>
+            <input name="recommend" type="radio">
+            <label >Maybe</label><br>
+            <input name="recommend" type="radio">
+            <label >Not sure</label><br><br>
+            <label>What is  your favorite feature of codepen?</label><br>
+            <select name="Ff" id="Ff">
+                <option>What is  your favorite feature of codepen?</option>
+                <option>1</option><br>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select><br><br>
+            <label>What would you like  to see improved in my survey ?(check all that apply)</label><br>
+            <input type="checkbox" value="css" id="c1">
+            <label for="c1">CSS</label><br>
+            <input type="checkbox" value="js" id="c2">
+            <label for="c2">Use some javaScript</label><br> 
+            <input type="checkbox" value="change" id="c3">
+            <label for="c3">No  change  required</label><br><br>
+            <label>Any comments  or  suggestion? </label><br>
+            <textarea rows="5" cols="60"  placeholder="Enter  your  comment here ......"></textarea>
+<input type="submit " value="Submit" class="submit">
+       </form>
+    </section>
+</body>
+</html> 
